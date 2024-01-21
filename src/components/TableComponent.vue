@@ -106,7 +106,7 @@ methods: {
 .custom-table th, .custom-table td {
   border: 1px solid gray;
   padding: 8px;
-  width: 50%; /* Cada columna ocupa el 50% del ancho */
+  width: 50%;
 }
 
 .custom-table th:first-child, .custom-table td:first-child {

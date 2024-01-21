@@ -1,4 +1,3 @@
-// Función para obtener idiomas (usando datos mockeados)
 export const getLanguages = async (): Promise<{ tag: string; name: string }[]> => {
   return [
     { tag: 'en-gb', name: 'English (United Kingdom)' },
