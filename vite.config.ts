@@ -3,7 +3,6 @@ import { resolve } from 'path';
 import { defineConfig, loadEnv, ConfigEnv } from 'vite';
 import vueSetupExtend from 'vite-plugin-vue-setup-extend-plus';
 import viteCompression from 'vite-plugin-compression';
-import { buildConfig } from './src/utils/build';
 
 const pathResolve = (dir: string) => {
 	return resolve(__dirname, '.', dir);
